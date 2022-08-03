@@ -1,0 +1,164 @@
+main {
+	width: 100%;
+	margin: 2rem 0;
+
+	display: flex;
+	justify-content: center;
+}
+
+.who-is-this-pokemon {
+	display: flex;
+	width: 100%;
+}
+
+.who-is-this-pokemon > article {
+	width: 100%;
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+} 
+
+.pokemon {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.imagem {
+	width: 100%;
+	max-width: 460px;
+}
+
+.type {
+	display: flex;
+	gap: 1rem;
+
+	margin: 0.5rem 0;
+}
+
+.type li {
+	width: 140px;
+	padding: 0.6rem;
+	border-radius: 1rem;
+
+	font-size: 1.125rem;
+	letter-spacing: 0.1rem;
+
+	text-align: center;
+	text-transform: capitalize;
+
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.score {
+	margin: 0.8rem 1.6rem;
+}
+
+.score span {
+	font-size: 2rem;
+
+	text-transform: capitalize;
+
+	color: var(--clr-white);
+}
+
+.attempts {
+	width: 100%;
+	max-width: 420px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.attempts button {
+	width: 100%;
+	padding: 1.5rem;
+	border-radius: 4rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	text-transform: capitalize;
+
+	color: var(--clr-black);
+	background-color: var(--clr-white);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.attempts button span {
+	font-size: 1.25rem;
+	letter-spacing: 0.1rem;
+
+	margin: 0 0.2rem;
+}
+
+.attempts button:hover {
+	transition: all 0.4s linear;
+	transform: translate(0, -0.3rem);
+}
+
+.loading {
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+
+	animation: loading 2.5s linear infinite;
+
+	border: 0.4rem solid var(--clr-white);
+	border-top-color: transparent;
+}
+
+@keyframes loading {
+	to {
+		transform: rotate(-360deg);
+	}
+	from {
+		transform: rotate(360deg);
+	}
+}
+
+.none {
+	display: none;
+}
+
+@media screen and (max-width: 768px) { 
+	.who-is-this-pokemon {
+		flex-direction: column;
+	}
+
+	.imagem {
+		max-width: 340px;
+	}
+
+	.type li {
+		padding: 0.857rem;
+	}
+
+	.score {
+		margin: 1rem;
+	}
+
+	.score span {
+		font-size: 2rem;
+	}
+
+	.attempts {
+		max-width: 420px;
+	}
+
+	.attempts button span {
+		margin: 0 0.6rem;
+	}
+}
