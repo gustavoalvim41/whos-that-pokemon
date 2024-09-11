@@ -111,13 +111,13 @@ main {
   right: 0;
   margin: auto;
 
-  width: 3rem;
-	height: 3rem;
+  width: 4.5rem;
+	height: 4.5rem;
 	border-radius: 50%;
 
 	animation: loading 2.5s linear infinite;
 
-	border: 0.4rem solid var(--clr-white);
+	border: .5rem solid var(--clr-white);
 	border-top-color: transparent;
 }
 
