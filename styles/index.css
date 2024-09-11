@@ -27,38 +27,38 @@ main {
 	justify-content: center;
 }
 
-.imagem {
+.pokemon > .imagem {
 	width: 100%;
-	max-width: 460px;
+	max-width: 56rem;
 }
 
 .type {
 	display: flex;
-	gap: 1rem;
+	gap: 1.6rem;
 
-	margin: 0.5rem 0;
+	margin: 1rem 0;
 }
 
 .type li {
-	width: 140px;
-	padding: 0.6rem;
+	width: 14rem;
+	padding: 1.2rem;
 	border-radius: 1rem;
 
-	font-size: 1.125rem;
-	letter-spacing: 0.1rem;
+	font-size: 1.6rem;
+	letter-spacing: .1rem;
 
 	text-align: center;
 	text-transform: capitalize;
 
-	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px .5rem 1.5rem;
 }
 
 .score {
-	margin: 0.8rem 1.6rem;
+	margin: 1.6rem 1.6rem;
 }
 
 .score span {
-	font-size: 2rem;
+	font-size: 3.2rem;
 
 	text-transform: capitalize;
 
@@ -67,17 +67,17 @@ main {
 
 .attempts {
 	width: 100%;
-	max-width: 420px;
+	max-width: 52rem;
 
 	display: flex;
 	flex-direction: column;
-	gap: 1.5rem;
+	gap: 2.6rem;
 }
 
 .attempts button {
 	width: 100%;
-	padding: 1.5rem;
-	border-radius: 4rem;
+	padding: 2rem;
+	border-radius: 1rem;
 
 	display: flex;
 	align-items: center;
@@ -91,26 +91,26 @@ main {
 }
 
 .attempts button span {
-	font-size: 1.25rem;
-	letter-spacing: 0.1rem;
+	font-size: 2rem;
+	letter-spacing: .1rem;
 
-	margin: 0 0.2rem;
+	margin: 0 1.2rem;
 }
 
 .attempts button:hover {
-	transition: all 0.4s linear;
-	transform: translate(0, -0.3rem);
+	transition: all .4s linear;
+	transform: translate(0, -.3rem);
 }
 
 .loading {
 	position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 
-    width: 3rem;
+  width: 3rem;
 	height: 3rem;
 	border-radius: 50%;
 
@@ -138,12 +138,13 @@ main {
 		flex-direction: column;
 	}
 
-	.imagem {
-		max-width: 340px;
+	.pokemon > .imagem {
+		width: 100%;
+		max-width: 32rem;
 	}
 
 	.type li {
-		padding: 0.857rem;
+		padding: 1rem;
 	}
 
 	.score {
@@ -151,14 +152,14 @@ main {
 	}
 
 	.score span {
-		font-size: 2rem;
+		font-size: 2.8rem;
 	}
 
 	.attempts {
-		max-width: 420px;
+		max-width: 100%;
 	}
 
 	.attempts button span {
-		margin: 0 0.6rem;
+		margin: 0 1rem;
 	}
 }

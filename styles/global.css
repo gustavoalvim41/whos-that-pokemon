@@ -10,19 +10,7 @@
 }
 
 html {
-	font-size: 100%;
-}
-
-@media screen and (max-width: 1024px) { 
-	html {
-	   	font-size: 93.75%;
-	}
-}
-
-@media screen and (max-width: 768px) { 
-	html {
-		font-size: 87.5%;
-	}
+	font-size: 62.5%;
 }
 
 :root {
@@ -35,7 +23,7 @@ html {
 }
 
 body {
-	font-size: 1rem;
+	font-size: 1.6rem;
 	font-weight: 400;
 }
 
