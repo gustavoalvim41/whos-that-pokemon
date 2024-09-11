@@ -12,7 +12,7 @@
 
 ## 📁 Sobre o Projeto
 
-Este projeto é um quiz interativo de "Quem é esse Pokémon?" desenvolvido para fins de aprendizado, utilizando HTML, CSS e JavaScript. Ele é inspirado no jogo clássico de adivinhar o Pokémon baseado em sua silhueta!
+Este projeto é um quiz interativo de "Quem é esse Pokémon?" desenvolvido para fins de aprendizado, utilizando HTML, CSS e JavaScript. Ele é inspirado no clássico jogo de adivinhar o Pokémon com base em sua silhueta. Neste caso, você precisa acertar o Pokémon pela foto e pelo tipo dele.
 
 ## 🎓 Aprendizado
 
